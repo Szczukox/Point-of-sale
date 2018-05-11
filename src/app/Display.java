@@ -1,3 +1,5 @@
+package app;
+
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 
@@ -26,7 +28,7 @@ public class Display {
     }
 
     public void displayProductNotFoundMessage() {
-        System.out.println("Product not found.");
+        System.out.println("app.Product not found.");
     }
 
     public void displayProductInfo(Product product) {

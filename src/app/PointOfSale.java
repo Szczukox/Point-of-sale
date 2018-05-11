@@ -1,3 +1,7 @@
+package app;
+
+import java.util.logging.Logger;
+
 public class PointOfSale {
 
     public static void main(String[] args) {
@@ -17,7 +21,13 @@ public class PointOfSale {
             else if (inputFromScanner.equals("")){
                 display.displayInvalidBarCodeMessage();
             } else {
-                int idProduct = Integer.parseInt(inputFromScanner);
+                int idProduct;
+                try {
+                    idProduct = Integer.parseInt(inputFromScanner);
+                } catch (Exception e) {
+                    Logger.getLogger(PointOfSale.class.getName()).info("Critical error.");
+                    continue;
+                }
                 if (database.isInStock(idProduct)) {
                     display.displayProductInfo(database.getProductFromDatabase(idProduct));
                 }
