@@ -11,7 +11,7 @@ public class Scanner {
     }
 
     public String readBarCode() {
-        String productID = null;
+        String productID = "";
         try {
             productID = bufferedReader.readLine();
         } catch (IOException e) {
