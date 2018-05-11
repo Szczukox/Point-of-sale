@@ -4,13 +4,21 @@ import java.util.ArrayList;
 public class Display {
 
     private ArrayList<Product> products;
+    private DecimalFormat priceFormat;
+    private double totalSum;
 
     public Display() {
         products = new ArrayList<Product>();
+        priceFormat = new DecimalFormat("0.00");
+        totalSum = 0.0;
     }
 
     public ArrayList<Product> getProducts() {
         return products;
+    }
+
+    public double getTotalSum() {
+        return totalSum;
     }
 
     public void displayInvalidBarCodeMessage() {
@@ -24,15 +32,13 @@ public class Display {
     public void displayProductInfo(Product product) {
         products.add(product);
         System.out.println(product.getName());
-        System.out.println(product.getPrice());
+        System.out.println(priceFormat.format(product.getPrice()));
     }
 
-    public void displaySum() {
-        double sum = 0.0;
+    public void displayTotalSum() {
         for (Product product : products) {
-            sum += product.getPrice();
+            totalSum += product.getPrice();
         }
-        DecimalFormat decimalFormat = new DecimalFormat("0.00");
-        System.out.println("SUM: " + decimalFormat.format(sum));
+        System.out.println("SUM: " + priceFormat.format(totalSum));
     }
 }

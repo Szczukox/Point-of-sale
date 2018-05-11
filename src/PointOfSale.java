@@ -5,11 +5,13 @@ public class PointOfSale {
 
         Scanner scanner = new Scanner();
         Display display = new Display();
+        Printer printer = new Printer();
 
         while (true) {
             String inputFromScanner = scanner.readBarCode();
             if (inputFromScanner.equals("exit")) {
-                display.displaySum();
+                display.displayTotalSum();
+                printer.printReceipt(display.getProducts(), display.getTotalSum());
                 break;
             }
             else if (inputFromScanner.equals("")){
