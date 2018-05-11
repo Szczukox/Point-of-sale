@@ -76,4 +76,9 @@ public class DatabaseTest {
         Mockito.when(mockDatabase.getProductFromDatabase(11)).thenReturn(null);
         assertNull(database.getProductFromDatabase(11));
     }
+
+    @Test
+    public void dropTable() {
+        Mockito.doNothing().when(mockDatabase).dropTable();
+    }
 }

@@ -16,6 +16,7 @@ public class PointOfSale {
             if (inputFromScanner.equals("exit")) {
                 display.displayTotalSum();
                 printer.printReceipt(display.getProducts(), display.getTotalSum());
+                database.dropTable();
                 break;
             }
             else if (inputFromScanner.equals("")){
