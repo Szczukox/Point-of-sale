@@ -42,11 +42,14 @@ public class Database {
     }
 
     private void addExampleProducts() {
-        String[] productsNames = {"Water", "Cheese", "Cookies", "Pasta", "Ham"};
-        double[] productsPrices = {1.59, 3.99, 5.99, 2.99, 9.99};
+        Product[] exampleProducts = {new Product(0, "Water", 1.59),
+                                     new Product(1, "Cheese", 3.99),
+                                     new Product(2, "Cookies", 5.99),
+                                     new Product(3, "Pasta", 2.99),
+                                     new Product(4, "Ham", 9.99)};
 
-        for (int id = 0; id < productsNames.length; id++) {
-            String sql = "INSERT INTO PRODUCTS VALUES(" + id + ", '" + productsNames[id] + "', " + productsPrices[id] + ")";
+        for (Product product : exampleProducts) {
+            String sql = "INSERT INTO PRODUCTS VALUES(" + product.getId() + ", '" + product.getName() + "', " + product.getPrice() + ")";
             try {
                 statement.execute(sql);
             } catch (SQLException e) {
@@ -59,6 +62,7 @@ public class Database {
         String sql = "SELECT * FROM PRODUCTS WHERE ID=?";
         boolean inStock = false;
         try {
+            preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setInt(1, idProduct);
             resultSet = preparedStatement.executeQuery();
             if (resultSet.next()) {
