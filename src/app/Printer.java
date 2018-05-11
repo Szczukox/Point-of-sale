@@ -11,6 +11,7 @@ public class Printer {
 
     private OutputStreamWriter outputStreamWriter;
     private DecimalFormat priceFormat;
+    private String printFormat;
 
     public Printer() {
         try {
@@ -19,6 +20,7 @@ public class Printer {
             e.printStackTrace();
         }
         priceFormat = new DecimalFormat("0.00");
+        printFormat = "%-50s";
     }
 
     /**
@@ -28,13 +30,13 @@ public class Printer {
      */
     public void printReceipt(ArrayList<Product> products, double totalSum) {
         try {
-            outputStreamWriter.write("PRODUCTS\t\t\t\t\tPRICE\n");
-            outputStreamWriter.write("**************************************************************\n");
+            outputStreamWriter.write(String.format(printFormat, "PRODUCT") + "PRICE\n");
+            outputStreamWriter.write("**********************************************************\n");
             for (Product product : products) {
-                outputStreamWriter.write(product.getName() + "\t\t\t\t\t" + priceFormat.format(product.getPrice()) + "\n");
+                outputStreamWriter.write(String.format(printFormat, product.getName()) + priceFormat.format(product.getPrice()) + "\n");
             }
-            outputStreamWriter.write("**************************************************************\n");
-            outputStreamWriter.write("TOTAL SUM:\t\t\t\t\t" + priceFormat.format(totalSum));
+            outputStreamWriter.write("**********************************************************\n");
+            outputStreamWriter.write(String.format(printFormat, "TOTAL SUM:") + priceFormat.format(totalSum));
             outputStreamWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
