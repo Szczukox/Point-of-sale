@@ -44,11 +44,12 @@ public class Database {
     }
 
     private void addExampleProducts() {
-        Product[] exampleProducts = {new Product(0, "Water", 1.59),
-                                     new Product(1, "Cheese", 3.99),
-                                     new Product(2, "Cookies", 5.99),
-                                     new Product(3, "Pasta", 2.99),
-                                     new Product(4, "Ham", 9.99)};
+        Product[] exampleProducts = {
+                new Product(0, "Water", 1.59),
+                new Product(1, "Cheese", 3.99),
+                new Product(2, "Cookies", 5.99),
+                new Product(3, "Pasta", 2.99),
+                new Product(4, "Ham", 9.99)};
 
         for (Product product : exampleProducts) {
             String sql = "INSERT INTO PRODUCTS VALUES(" + product.getId() + ", '" + product.getName() + "', " + product.getPrice() + ")";

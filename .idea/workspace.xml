@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81d89d8c-8be1-41a3-af98-afc29ba51598" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Point-of-sale.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Point-of-sale.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/receipt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/receipt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PointOfSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/PointOfSale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/DatabaseTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,45 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Database.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/Database.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/DatabaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Display.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/Display.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="731">
+              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#214#215#0" expanded="true" />
@@ -76,13 +37,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/Printer.java">
+      <file leaf-file-name="DisplayTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/DisplayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,12 +54,24 @@
       <file leaf-file-name="Scanner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/Scanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#183#184#0" expanded="true" />
                 <element signature="e#273#274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/DatabaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,7 +110,13 @@
         <option value="$PROJECT_DIR$/src/PointOfSale.java" />
         <option value="$PROJECT_DIR$/src/Database.java" />
         <option value="$PROJECT_DIR$/src/DatabaseTest.java" />
+        <option value="$PROJECT_DIR$/src/app/Printer.java" />
+        <option value="$PROJECT_DIR$/src/test/ScannerTest.java" />
+        <option value="$PROJECT_DIR$/src/app/Database.java" />
+        <option value="$PROJECT_DIR$/src/app/DisplayTest.java" />
+        <option value="$PROJECT_DIR$/src/app/Display.java" />
         <option value="$PROJECT_DIR$/src/test/DatabaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/DisplayTest.java" />
       </list>
     </option>
   </component>
@@ -205,6 +186,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="app" />
       <recent name="test" />
       <recent name="" />
     </key>
@@ -224,12 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseTest.getProductFromDatabase">
-    <configuration name="PointOfSale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.PointOfSale" />
-      <module name="Point-of-sale" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.DisplayTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -256,29 +233,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DatabaseTest.getProductFromDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Point-of-sale" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.DatabaseTest" />
-      <option name="METHOD_NAME" value="getProductFromDatabase" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="DatabaseTest.isInStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Point-of-sale" />
       <extension name="coverage">
@@ -292,6 +246,75 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.DatabaseTest" />
       <option name="METHOD_NAME" value="isInStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DisplayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Point-of-sale" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DisplayTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DisplayTest.displayInvalidBarCodeMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Point-of-sale" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DisplayTest" />
+      <option name="METHOD_NAME" value="displayInvalidBarCodeMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DisplayTest.displayTotalSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Point-of-sale" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DisplayTest" />
+      <option name="METHOD_NAME" value="displayTotalSum" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -341,17 +364,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PointOfSale" />
+      <item itemvalue="JUnit.DisplayTest.displayTotalSum" />
+      <item itemvalue="JUnit.DisplayTest" />
       <item itemvalue="JUnit.DatabaseTest.isInStock" />
       <item itemvalue="JUnit.DatabaseTest" />
-      <item itemvalue="JUnit.DatabaseTest.getProductFromDatabase" />
+      <item itemvalue="JUnit.DisplayTest.displayInvalidBarCodeMessage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DatabaseTest.getProductFromDatabase" />
-        <item itemvalue="JUnit.DatabaseTest.isInStock" />
+        <item itemvalue="JUnit.DisplayTest" />
+        <item itemvalue="JUnit.DisplayTest.displayInvalidBarCodeMessage" />
         <item itemvalue="JUnit.DatabaseTest" />
-        <item itemvalue="Application.PointOfSale" />
+        <item itemvalue="JUnit.DatabaseTest.isInStock" />
+        <item itemvalue="JUnit.DisplayTest.displayTotalSum" />
       </list>
     </recent_temporary>
   </component>
@@ -376,47 +401,47 @@
       <workItem from="1525984507242" duration="7598000" />
       <workItem from="1526023348593" duration="16000" />
       <workItem from="1526026047870" duration="4326000" />
-      <workItem from="1526044127192" duration="12697000" />
+      <workItem from="1526044127192" duration="18249000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DatabaseTest_getProductFromDatabase - 2018.05.11 at 18h 12m 14s.xml">
-      <configuration name="DatabaseTest.getProductFromDatabase" configurationId="JUnit" />
+    <history-entry file="DisplayTest_displayTotalSum - 2018.05.11 at 19h 57m 40s.xml">
+      <configuration name="DisplayTest.displayTotalSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTest_getProductFromDatabase - 2018.05.11 at 18h 15m 10s.xml">
-      <configuration name="DatabaseTest.getProductFromDatabase" configurationId="JUnit" />
+    <history-entry file="DatabaseTest - 2018.05.11 at 20h 00m 38s.xml">
+      <configuration name="DatabaseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTest_getProductFromDatabase - 2018.05.11 at 18h 17m 36s.xml">
-      <configuration name="DatabaseTest.getProductFromDatabase" configurationId="JUnit" />
+    <history-entry file="DisplayTest - 2018.05.11 at 20h 00m 44s.xml">
+      <configuration name="DisplayTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTest_getProductFromDatabase - 2018.05.11 at 18h 18m 23s.xml">
-      <configuration name="DatabaseTest.getProductFromDatabase" configurationId="JUnit" />
+    <history-entry file="DisplayTest_displayInvalidBarCodeMessage - 2018.05.11 at 20h 04m 17s.xml">
+      <configuration name="DisplayTest.displayInvalidBarCodeMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTest_getProductFromDatabase - 2018.05.11 at 18h 30m 02s.xml">
-      <configuration name="DatabaseTest.getProductFromDatabase" configurationId="JUnit" />
+    <history-entry file="DisplayTest_displayProductInfo - 2018.05.11 at 20h 06m 45s.xml">
+      <configuration name="DisplayTest.displayProductInfo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTest_getProductFromDatabase - 2018.05.11 at 18h 30m 24s.xml">
-      <configuration name="DatabaseTest.getProductFromDatabase" configurationId="JUnit" />
+    <history-entry file="DisplayTest_displayTotalSum - 2018.05.11 at 20h 07m 06s.xml">
+      <configuration name="DisplayTest.displayTotalSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTest_getProductFromDatabase - 2018.05.11 at 18h 34m 15s.xml">
-      <configuration name="DatabaseTest.getProductFromDatabase" configurationId="JUnit" />
+    <history-entry file="DatabaseTest_isInStock - 2018.05.11 at 20h 07m 41s.xml">
+      <configuration name="DatabaseTest.isInStock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTest_getProductFromDatabase - 2018.05.11 at 18h 35m 05s.xml">
-      <configuration name="DatabaseTest.getProductFromDatabase" configurationId="JUnit" />
+    <history-entry file="DatabaseTest_isInStock - 2018.05.11 at 20h 08m 01s.xml">
+      <configuration name="DatabaseTest.isInStock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTest_getProductFromDatabase - 2018.05.11 at 18h 35m 28s.xml">
-      <configuration name="DatabaseTest.getProductFromDatabase" configurationId="JUnit" />
+    <history-entry file="DatabaseTest_isInStock - 2018.05.11 at 20h 08m 18s.xml">
+      <configuration name="DatabaseTest.isInStock" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatabaseTest_getProductFromDatabase - 2018.05.11 at 18h 36m 07s.xml">
-      <configuration name="DatabaseTest.getProductFromDatabase" configurationId="JUnit" />
+    <history-entry file="DatabaseTest_isInStock - 2018.05.11 at 20h 08m 27s.xml">
+      <configuration name="DatabaseTest.isInStock" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24637000" />
+    <option name="totallyTimeSpent" value="30189000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -457,7 +482,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -632,10 +657,76 @@
     <entry file="file://$PROJECT_DIR$/src/DatabaseTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/receipt.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Projekt-IO/test/locations/BuildingTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ScannerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/PointOfSale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="45" lean-forward="true" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Display.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="731">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#214#215#0" expanded="true" />
@@ -650,65 +741,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/PointOfSale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/receipt.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Projekt-IO/test/locations/BuildingTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/DatabaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        <state relative-caret-position="98">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/test/DisplayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+        <state relative-caret-position="153">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -730,7 +780,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -790,7 +840,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Arquillian JUnit:Release</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

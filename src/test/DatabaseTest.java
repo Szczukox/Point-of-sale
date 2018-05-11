@@ -20,7 +20,7 @@ public class DatabaseTest {
     private Database database;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         mockDatabase = mock(Database.class);
         database = new Database();
     }

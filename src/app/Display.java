@@ -28,7 +28,7 @@ public class Display {
     }
 
     public void displayProductNotFoundMessage() {
-        System.out.println("app.Product not found.");
+        System.out.println("Product not found.");
     }
 
     public void displayProductInfo(Product product) {
@@ -41,6 +41,6 @@ public class Display {
         for (Product product : products) {
             totalSum += product.getPrice();
         }
-        System.out.println("SUM: " + priceFormat.format(totalSum));
+        System.out.println("TOTAL SUM: " + priceFormat.format(totalSum));
     }
 }
