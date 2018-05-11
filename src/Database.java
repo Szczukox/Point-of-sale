@@ -73,4 +73,20 @@ public class Database {
         }
         return inStock;
     }
+
+    public Product getProductFromDatabase(int idProduct) {
+        String sql = "SELECT * FROM PRODUCTS WHERE ID=?";
+        Product product = null;
+        try {
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(1, idProduct);
+            resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                product = new Product(idProduct, resultSet.getString("NAME"), resultSet.getDouble("PRICE"));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return product;
+    }
 }

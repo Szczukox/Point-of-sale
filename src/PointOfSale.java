@@ -4,14 +4,24 @@ public class PointOfSale {
         Database database = new Database();
 
         Scanner scanner = new Scanner();
+        Display display = new Display();
 
         while (true) {
             String inputFromScanner = scanner.readBarCode();
             if (inputFromScanner.equals("exit")) {
+                display.displaySum();
                 break;
             }
-            else {
-                System.out.println(inputFromScanner);
+            else if (inputFromScanner.equals("")){
+                display.displayInvalidBarCodeMessage();
+            } else {
+                int idProduct = Integer.parseInt(inputFromScanner);
+                if (database.isInStock(idProduct)) {
+                    display.displayProductInfo(database.getProductFromDatabase(idProduct));
+                }
+                else {
+                    display.displayProductNotFoundMessage();
+                }
             }
         }
     }
