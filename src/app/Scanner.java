@@ -8,10 +8,15 @@ public class Scanner {
 
     private BufferedReader bufferedReader;
 
+
     public Scanner() {
         this.bufferedReader = new BufferedReader(new InputStreamReader(System.in));
     }
 
+    /**
+     * Load input bar-code and return product ID
+     * @return product ID from input stream
+     */
     public String readBarCode() {
         String productID = "";
         try {

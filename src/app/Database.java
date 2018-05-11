@@ -17,6 +17,9 @@ public class Database {
         addExampleProducts();
     }
 
+    /**
+     * Connect to products database
+     */
     private void connect() {
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -29,6 +32,9 @@ public class Database {
         }
     }
 
+    /**
+     * Create table of products
+     */
     private void createTable() {
         String sql = "CREATE OR REPLACE TABLE PRODUCTS (" +
                 "ID INT NOT NULL, " +
@@ -43,6 +49,9 @@ public class Database {
         }
     }
 
+    /**
+     * Add example products to products table
+     */
     private void addExampleProducts() {
         Product[] exampleProducts = {
                 new Product(0, "Water", 1.59),
@@ -61,6 +70,11 @@ public class Database {
         }
     }
 
+    /**
+     *
+     * @param idProduct product ID searched product
+     * @return true if product is found in product database, false otherwise
+     */
     public boolean isInStock(int idProduct) {
         String sql = "SELECT * FROM PRODUCTS WHERE ID=?";
         boolean inStock = false;
@@ -77,6 +91,11 @@ public class Database {
         return inStock;
     }
 
+    /**
+     *
+     * @param idProduct product ID searched product
+     * @return Product object found in products database
+     */
     public Product getProductFromDatabase(int idProduct) {
         String sql = "SELECT * FROM PRODUCTS WHERE ID=?";
         Product product = null;

@@ -21,6 +21,11 @@ public class Printer {
         priceFormat = new DecimalFormat("0.00");
     }
 
+    /**
+     * Print product names, product prices and total sum of product prices, save it as receipt to file
+     * @param products array of products
+     * @param totalSum total sum of prices array of products
+     */
     public void printReceipt(ArrayList<Product> products, double totalSum) {
         try {
             outputStreamWriter.write("PRODUCTS\t\t\t\t\tPRICE\n");
